@@ -2,7 +2,7 @@
 import platform
 
 class Config:
-    __api_base_url = 'https://pix-h.aarin.com.br/api'
+    __api_base_url = 'https://pix.aarin.com.br/api'
     __mime_json = 'application/json'
     __mime_form = 'application/x-www-form-urlencoded'
 
