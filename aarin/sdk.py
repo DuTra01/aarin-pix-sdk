@@ -15,7 +15,7 @@ class SDK:
 
         self.request_options.access_token = access_token
         if contaBancariaIdconta is not None and isinstance(contaBancariaIdconta, str):
-            request_options.custom_headers = {'X-ContaBancariaId': contaBancariaIdconta}
+            self.request_options.custom_headers = {'X-ContaBancariaId': contaBancariaIdconta}
             
     def collection(self, request_options=None):
         return Collection(request_options is not None and request_options
